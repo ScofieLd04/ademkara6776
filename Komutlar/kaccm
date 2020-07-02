@@ -1,0 +1,22 @@
+const  Discord  =  zorunlu ( 'discord.js' ) ;
+const  istemcisi  =  yeni  Discord . Müşteri ( ) ;
+
+ihracat . run  =  ( istemci ,  mesaj )  =>  {
+ mesajı . kanalı . gönder ( { embed : {
+          renk : 0xD97634 ,
+		  açıklama : "** Ulan ne sapık adamsın bir de iman edip namaz kılacaksın ülkemizin haline geldi! **"
+            } } ) ;
+} ;
+
+ihracat . conf  =  {
+  etkin : doğru ,
+  guildOnly : yanlış ,
+  takma adlar : [ 'p' ] ,
+  permLevel : 0
+} ;
+
+ihracat . yardım  =  {
+  isim : 'kaçcm' ,
+  açıklama : 'kedileri gösterir.' ,
+  kullanım : 'kaçcm'
+} ;
